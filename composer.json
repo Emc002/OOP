@@ -1,0 +1,16 @@
+{
+  "name": "staditek/oop",
+  "description": "PHP",
+  "type": "project",
+  "authors": [
+   {
+      "name": "ALIF NAFISA ALGHANY",
+      "email": "alifnafislaghany@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OOP\\App\\" : "App"
+    }
+  }
+}

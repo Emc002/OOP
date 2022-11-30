@@ -1,0 +1,10 @@
+#mengaktifkan rewrite
+RewriteEngine On
+
+
+
+RewriteRule ^show/([0-9a-zA-Z]+) index.php?page=show&id=$1 [NC,L]
+
+#redirect jika error
+
+ErrorDocument 404 /PHP%20BASIC/PHP_OOP_MAS_R/404.html
